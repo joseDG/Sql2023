@@ -1,0 +1,12 @@
+/*
+TRAER EL TOTAL VENDIDO DE LOS
+productos QUE FUERON VENDIDOS ENTRE EL 02/01/2018 Y EL 10/01/2018
+Y CUYO PROVEEDOR SE ENCUENTRA ENTRE EL 2 Y EL 100
+*/
+
+SELECT SUM((VD_Precio * VD_Cantidad)) AS 'Total Vendido'
+FROM ventas_detalle
+	JOIN productos ON VD_ProdID = Prod_Id
+	JOIN ventas ON VD_VentasId = Ventas_Id
+WHERE (ventas_Fecha BETWEEN '2018-01-02' AND '2018-01-10') AND
+		(Prod_ProvId BETWEEN 2 AND 100)

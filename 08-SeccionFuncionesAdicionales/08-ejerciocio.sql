@@ -1,0 +1,1 @@
+SELECT  CONVERT("08:25:00", TIME) AS Hora FROM productos

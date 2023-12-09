@@ -1,0 +1,1 @@
+SELECT DATEDIFF(Ventas_Fecha, NOW()) AS Intervalo FROM Ventas

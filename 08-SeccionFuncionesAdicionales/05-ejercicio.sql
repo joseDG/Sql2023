@@ -1,0 +1,1 @@
+SELECT Prod_Descripcion, UNCOMPRESS(COMPRESS(Prod_Descripcion)) AS Resultado FROM productos

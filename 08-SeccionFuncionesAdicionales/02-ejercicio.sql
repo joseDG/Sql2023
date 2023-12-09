@@ -1,0 +1,1 @@
+SELECT prod_Descripcion, AES_ENCRYPT(Prod_Descripcion, 'Master') AS DescripEncript FROM productos

@@ -1,0 +1,5 @@
+/*TRAER LA CANTIDAD DE PRODUCTOS
+QUE SE HAN VENDIDO*/
+SELECT COUNT(DISTINCT(VD_ProdId)) AS cantidad
+FROM productos
+	JOIN ventas_detalle ON Prod_Id = VD_ProdId

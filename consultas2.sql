@@ -1,0 +1,3 @@
+SELECT *
+FROM ventas v
+WHERE v.Ventas_Fecha BETWEEN '2018-01-01' AND '2018-01-03'

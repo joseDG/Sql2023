@@ -1,0 +1,1 @@
+SELECT  CONCAT_WS("!",Prod_Descripcion, Prod_Color, Prod_Precio) AS Descr FROM productos

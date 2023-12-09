@@ -1,0 +1,1 @@
+SELECT  CONCAT(Prod_Descripcion, Prod_Color) AS Descr FROM productos

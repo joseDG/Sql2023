@@ -1,0 +1,1 @@
+SELECT Prod_Descripcion, LENGTH(Prod_Descripcion) AS Largo FROM productos

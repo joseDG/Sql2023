@@ -1,0 +1,1 @@
+SELECT Prod_Id, Prod_Descripcion, Prod_Precio FROM productos
